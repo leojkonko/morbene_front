@@ -1,0 +1,30 @@
+// Estilos do footer
+footer {
+    & h2 {
+        font-weight: 700;
+        font-size: 24px !important;
+    }
+
+    & .copyright {
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+
+        & .margin-auto {
+            margin: 0px auto;
+
+            @media(min-width: 992px) {
+                margin-top: -12px;
+            }
+        }
+
+        & .m-a {
+
+            @media(max-width: 992px) {
+                margin: auto;
+            }
+        }
+
+        & a {
+            color: white !important;
+        }
+    }
+}
